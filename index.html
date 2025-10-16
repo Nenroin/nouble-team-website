@@ -14,6 +14,12 @@
     />
     <meta name="author" content="Ваша команда разработки" />
 
+    <script>
+      tailwind.config = {
+        content: ["./app/index.html"],
+        mode: "jit",
+      };
+    </script>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="antialiased text-slate-800 bg-slate-50">
@@ -146,7 +152,9 @@
             оптимизировать бизнес-процессы. От консультации до развёртывания и
             поддержки.
           </p>
-          <div class="flex w-full md:flex-row flex-col gap-2 text-base md:text-lg">
+          <div
+            class="flex w-full md:flex-row flex-col gap-2 text-base md:text-lg"
+          >
             <a
               href="#contact"
               class="flex px-6 py-3 bg-white text-blue-900 rounded-md font-normal hover:bg-gray-100"
@@ -161,7 +169,10 @@
         </div>
       </section>
 
-      <section id="services" class="flex items-center justify-center py-8 md:py-16">
+      <section
+        id="services"
+        class="flex items-center justify-center py-8 md:py-16"
+      >
         <div class="flex flex-col max-w-7xl w-full px-2">
           <h3
             class="text-2xl md:text-3xl font-semibold mb-6 pb-4 border-b border-gray-300"
@@ -171,7 +182,9 @@
           <div class="grid md:grid-cols-2 gap-8">
             <div class="space-y-4">
               <h4 class="text-lg sm:text-xl font-semibold">Веб-разработка</h4>
-              <ul class="list-disc list-inside text-base md:text-lg text-slate-700">
+              <ul
+                class="list-disc list-inside text-base md:text-lg text-slate-700"
+              >
                 <li>Создание корпоративных сайтов и лендингов под ключ</li>
                 <li>
                   Разработка индивидуальных веб-приложений любой сложности
@@ -189,7 +202,9 @@
             </div>
             <div class="space-y-4">
               <h4 class="text-lg sm:text-xl font-semibold">Разработка ботов</h4>
-              <ul class="list-disc list-inside text-base md:text-lg text-slate-700">
+              <ul
+                class="list-disc list-inside text-base md:text-lg text-slate-700"
+              >
                 <li>Чат-боты для Telegram, Discord, ВКонтакте</li>
                 <li>Интеграция с CRM и внешними сервисами</li>
                 <li>Автоматизация задач и рабочих процессов</li>
@@ -198,7 +213,9 @@
             </div>
             <div class="space-y-4">
               <h4 class="text-lg sm:text-xl font-semibold">Дизайн и визуал</h4>
-              <ul class="list-disc list-inside text-base md:text-lg text-slate-700">
+              <ul
+                class="list-disc list-inside text-base md:text-lg text-slate-700"
+              >
                 <li>UI/UX дизайн интерфейсов</li>
                 <li>3D модели и сцены</li>
                 <li>Рекламные баннеры, посты и контент для соцсетей</li>
@@ -209,14 +226,19 @@
         </div>
       </section>
 
-      <section id="process" class="flex items-center justify-center py-8 md:py-16 bg-white border-t">
+      <section
+        id="process"
+        class="flex items-center justify-center py-8 md:py-16 bg-white border-t"
+      >
         <div class="flex flex-col max-w-7xl w-full px-2">
           <h3
             class="text-2xl md:text-3xl font-semibold mb-6 pb-4 border-b border-gray-300"
           >
             Порядок работы
           </h3>
-          <ol class="list-decimal list-inside text-base md:text-lg space-y-4 text-slate-700">
+          <ol
+            class="list-decimal list-inside text-base md:text-lg space-y-4 text-slate-700"
+          >
             <li>
               Оставляете заявку или звоните. Проводится краткая бесплатная
               консультация для понимания задач и целей проекта.
@@ -1223,7 +1245,9 @@
 
       <section id="tech" class="flex items-center justify-center py-8 md:py-16">
         <div class="flex flex-col max-w-7xl w-full px-2">
-          <h3 class="text-2xl md:text-3xl font-semibold mb-6 pb-4 border-b border-gray-300">
+          <h3
+            class="text-2xl md:text-3xl font-semibold mb-6 pb-4 border-b border-gray-300"
+          >
             Технологии, которые мы используем
           </h3>
           <p class="text-base md:text-lg text-slate-700 mb-6">
@@ -1233,7 +1257,9 @@
           <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             <div class="p-4 bg-white rounded shadow-sm">
               <h5 class="font-semibold">Frontend</h5>
-              <ul class="text-base md:text-lg text-slate-600 mt-2 list-disc list-inside">
+              <ul
+                class="text-base md:text-lg text-slate-600 mt-2 list-disc list-inside"
+              >
                 <li>HTML5, CSS3, JavaScript (ES6+)</li>
                 <li>React, Vue, Svelte</li>
                 <li>TypeScript</li>
@@ -1243,7 +1269,9 @@
             </div>
             <div class="p-4 bg-white rounded shadow-sm">
               <h5 class="font-semibold">Backend</h5>
-              <ul class="text-base md:text-lg text-slate-600 mt-2 list-disc list-inside">
+              <ul
+                class="text-base md:text-lg text-slate-600 mt-2 list-disc list-inside"
+              >
                 <li>Golang</li>
                 <li>Java / Spring</li>
                 <li>Node.js, Express, Fastify</li>
@@ -1252,7 +1280,9 @@
             </div>
             <div class="p-4 bg-white rounded shadow-sm">
               <h5 class="font-semibold">Databases & Storage</h5>
-              <ul class="text-base md:text-lg text-slate-600 mt-2 list-disc list-inside">
+              <ul
+                class="text-base md:text-lg text-slate-600 mt-2 list-disc list-inside"
+              >
                 <li>PostgreSQL, MySQL</li>
                 <li>MongoDB, Redis</li>
                 <li>MinIO, S3</li>
@@ -1260,7 +1290,9 @@
             </div>
             <div class="p-4 bg-white rounded shadow-sm">
               <h5 class="font-semibold">Bots & Integrations</h5>
-              <ul class="text-base md:text-lg text-slate-600 mt-2 list-disc list-inside">
+              <ul
+                class="text-base md:text-lg text-slate-600 mt-2 list-disc list-inside"
+              >
                 <li>Telegram Bot API, Discord.js/Discord.py</li>
                 <li>VK API</li>
                 <li>Webhook, REST, GraphQL</li>
@@ -1268,7 +1300,9 @@
             </div>
             <div class="p-4 bg-white rounded shadow-sm">
               <h5 class="font-semibold">DevOps & Testing</h5>
-              <ul class="text-base md:text-lg text-slate-600 mt-2 list-disc list-inside">
+              <ul
+                class="text-base md:text-lg text-slate-600 mt-2 list-disc list-inside"
+              >
                 <li>Docker, Kubernetes</li>
                 <li>CI/CD (GitHub Actions, GitLab CI)</li>
                 <li>Linux, Nginx</li>
@@ -1283,7 +1317,11 @@
         class="flex items-center justify-center bg-slate-100 border-t"
       >
         <div class="flex flex-col max-w-7xl w-full px-2 py-12">
-          <h3 class="text-2xl md:text-3xl font-semibold mb-6 pb-4 border-b border-gray-300">Дополнительные услуги</h3>
+          <h3
+            class="text-2xl md:text-3xl font-semibold mb-6 pb-4 border-b border-gray-300"
+          >
+            Дополнительные услуги
+          </h3>
           <ul class="list-disc list-inside text-slate-700 text-base md:text-lg">
             <li>IT-консалтинг и цифровая трансформация</li>
             <li>QA, тестирование и контроль качества</li>
@@ -1308,7 +1346,7 @@
                 <li>
                   Телефон:
                   <a href="tel:+375333308899" class="text-sky-600"
-                    >+375(33)3308899</a
+                    >+375 (33) 317 1234</a
                   >
                 </li>
                 <li>
