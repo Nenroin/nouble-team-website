@@ -246,6 +246,15 @@
   .h-full {
     height: 100%;
   }
+  .max-h-60 {
+    max-height: calc(var(--spacing) * 60);
+  }
+  .max-h-80 {
+    max-height: calc(var(--spacing) * 80);
+  }
+  .min-h-40 {
+    min-height: calc(var(--spacing) * 40);
+  }
   .w-10 {
     width: calc(var(--spacing) * 10);
   }

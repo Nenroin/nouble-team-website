@@ -1001,13 +1001,13 @@
               <ul class="text-slate-700 space-y-2">
                 <li>
                   Телефон:
-                  <a href="tel:+375333171234" class="text-blue-950"
+                  <a href="tel:+375333171234" class="text-blue-950 font-semibold"
                     >+375 (33) 317 1234</a
                   >
                 </li>
                 <li>
                   Email:
-                  <a href="mailto:noubleteam@gmail.com" class="text-blue-950"
+                  <a href="mailto:noubleteam@gmail.com" class="text-blue-950 font-semibold"
                     >noubleteam@gmail.com</a
                   >
                 </li>
@@ -1020,6 +1020,7 @@
                     type="text"
                     name="name"
                     placeholder="Имя"
+                    maxlength="100"
                     class="w-full px-3 py-2 border rounded"
                     required
                   />
@@ -1027,19 +1028,24 @@
                     type="tel"
                     name="phone"
                     placeholder="Телефон"
+                    maxlength="15"
                     class="w-full px-3 py-2 border rounded"
+                    required
                   />
                   <input
                     type="email"
                     name="email"
                     placeholder="Email"
+                    maxlength="100"
                     class="w-full px-3 py-2 border rounded"
+                    required
                   />
                   <textarea
                     name="message"
                     rows="4"
                     placeholder="Краткое описание задачи"
-                    class="w-full px-3 py-2 border rounded"
+                    maxlength="1000"
+                    class="w-full px-3 py-2 border rounded min-h-40 max-h-80"
                   ></textarea>
                   <a
                     href="mailto:noubleteam@gmail.com?subject=Заявка%20с%20сайта"
