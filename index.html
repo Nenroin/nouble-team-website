@@ -12,22 +12,22 @@
       name="keywords"
       content="веб-разработка, мобильная разработка, боты, Telegram bot, Discord bot, ВКонтакте, UI/UX, SEO, интеграции, CRM, API"
     />
-    <meta name="author" content="Ваша команда разработки" />
+    <meta name="author" content="Nouble team" />
 
     <script>
       tailwind.config = {
-        content: ["./app/index.html"],
+        content: ["./index.html"],
         mode: "jit",
       };
     </script>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="antialiased text-slate-800 bg-slate-50">
+  <body class="antialiased text-slate-800">
     <header
       class="fixed flex items-center justify-center h-14 w-full bg-white shadow"
     >
       <div class="flex items-center justify-between max-w-7xl w-full px-2">
-        <a href="#" class="flex items-center gap-2">
+        <a href="#" class="flex items-center gap-2" aria-label="Набл тим логотип">
           <svg
             width="102"
             height="34"
@@ -69,7 +69,7 @@
         <nav
           class="flex md:hidden pl-4 w-full justify-between sm:justify-end items-center gap-4 sm:gap-8"
         >
-          <a href="#services" class="flex h-10 w-10">
+          <a href="#services" class="flex h-10 w-10" aria-label="Услуги">
             <svg viewBox="0 0 24 24" fill="none">
               <path
                 d="M6.25993 21.3884H6C5.05719 21.3884 4.58579 21.3884 4.29289 21.0955C4 20.8026 4 20.3312 4 19.3884V18.2764C4 17.7579 4 17.4987 4.13318 17.2672C4.26636 17.0356 4.46727 16.9188 4.8691 16.6851C7.51457 15.1464 11.2715 14.2803 13.7791 15.7759C13.9475 15.8764 14.0991 15.9977 14.2285 16.1431C14.7866 16.77 14.746 17.7161 14.1028 18.2775C13.9669 18.396 13.8222 18.486 13.6764 18.5172C13.7962 18.5033 13.911 18.4874 14.0206 18.4699C14.932 18.3245 15.697 17.8375 16.3974 17.3084L18.2046 15.9433C18.8417 15.462 19.7873 15.4619 20.4245 15.943C20.9982 16.3762 21.1736 17.0894 20.8109 17.6707C20.388 18.3487 19.7921 19.216 19.2199 19.7459C18.6469 20.2766 17.7939 20.7504 17.0975 21.0865C16.326 21.4589 15.4738 21.6734 14.6069 21.8138C12.8488 22.0983 11.0166 22.0549 9.27633 21.6964C8.29253 21.4937 7.27079 21.3884 6.25993 21.3884Z"
@@ -89,7 +89,7 @@
               />
             </svg>
           </a>
-          <a href="#process" class="flex h-10 w-10">
+          <a href="#process" class="flex h-10 w-10" aria-label="Порядок работы">
             <svg viewBox="0 0 24 24" fill="none">
               <path
                 fill-rule="evenodd"
@@ -99,7 +99,7 @@
               />
             </svg>
           </a>
-          <a href="#tech" class="flex h-10 w-10">
+          <a href="#tech" class="flex h-10 w-10" aria-label="Технологии">
             <svg viewBox="0 0 24 24" fill="none">
               <path
                 d="M9.18109 10.1811C9.2342 10.128 9.32905 10.0623 9.63166 10.0216C9.95434 9.97823 10.3923 9.97675 11.0698 9.97675H12.9302C13.6077 9.97675 14.0457 9.97823 14.3683 10.0216C14.671 10.0623 14.7658 10.128 14.8189 10.1811C14.872 10.2342 14.9377 10.329 14.9784 10.6317C15.0218 10.9543 15.0233 11.3923 15.0233 12.0698V13.9302C15.0233 14.6077 15.0218 15.0457 14.9784 15.3683C14.9377 15.671 14.872 15.7658 14.8189 15.8189C14.7658 15.872 14.671 15.9377 14.3683 15.9784C14.0457 16.0218 13.6077 16.0233 12.9302 16.0233H11.0698C10.3923 16.0233 9.95434 16.0218 9.63166 15.9784C9.32905 15.9377 9.2342 15.872 9.18109 15.8189C9.12798 15.7658 9.0623 15.671 9.02161 15.3683C8.97823 15.0457 8.97675 14.6077 8.97675 13.9302V12.0698C8.97675 11.3923 8.97823 10.9543 9.02161 10.6317C9.0623 10.329 9.12798 10.2342 9.18109 10.1811Z"
@@ -113,7 +113,7 @@
               />
             </svg>
           </a>
-          <a href="#contact" class="flex h-10 w-10">
+          <a href="#contact" class="flex h-10 w-10" aria-label="Связаться">
             <svg viewBox="0 0 24 24" fill="none">
               <path
                 d="M14.5562 15.5477L14.1007 16.0272C14.1007 16.0272 13.0181 17.167 10.0631 14.0559C7.10812 10.9448 8.1907 9.80507 8.1907 9.80507L8.47752 9.50311C9.18407 8.75924 9.25068 7.56497 8.63424 6.6931L7.37326 4.90961C6.61028 3.8305 5.13596 3.68795 4.26145 4.60864L2.69185 6.26114C2.25823 6.71766 1.96765 7.30945 2.00289 7.96594C2.09304 9.64546 2.81071 13.259 6.81536 17.4752C11.0621 21.9462 15.0468 22.1239 16.6763 21.9631C17.1917 21.9122 17.6399 21.6343 18.0011 21.254L19.4217 19.7584C20.3806 18.7489 20.1102 17.0182 18.8833 16.312L16.9728 15.2123C16.1672 14.7486 15.1858 14.8848 14.5562 15.5477Z"
@@ -171,7 +171,7 @@
 
       <section
         id="services"
-        class="flex items-center justify-center py-8 md:py-16"
+        class="flex items-center justify-center py-8 md:py-16 bg-slate-50"
       >
         <div class="flex flex-col max-w-7xl w-full px-2">
           <h3
@@ -1243,7 +1243,10 @@
         </div>
       </section>
 
-      <section id="tech" class="flex items-center justify-center py-8 md:py-16">
+      <section
+        id="tech"
+        class="flex items-center justify-center bg-slate-50 py-8 md:py-16 border-t"
+      >
         <div class="flex flex-col max-w-7xl w-full px-2">
           <h3
             class="text-2xl md:text-3xl font-semibold mb-6 pb-4 border-b border-gray-300"
@@ -1256,7 +1259,7 @@
           </p>
           <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             <div class="p-4 bg-white rounded shadow-sm">
-              <h5 class="font-semibold">Frontend</h5>
+              <h4 class="font-semibold">Frontend</h5>
               <ul
                 class="text-base md:text-lg text-slate-600 mt-2 list-disc list-inside"
               >
@@ -1268,7 +1271,7 @@
               </ul>
             </div>
             <div class="p-4 bg-white rounded shadow-sm">
-              <h5 class="font-semibold">Backend</h5>
+              <h4 class="font-semibold">Backend</h5>
               <ul
                 class="text-base md:text-lg text-slate-600 mt-2 list-disc list-inside"
               >
@@ -1279,7 +1282,7 @@
               </ul>
             </div>
             <div class="p-4 bg-white rounded shadow-sm">
-              <h5 class="font-semibold">Databases & Storage</h5>
+              <h4 class="font-semibold">Databases & Storage</h5>
               <ul
                 class="text-base md:text-lg text-slate-600 mt-2 list-disc list-inside"
               >
@@ -1289,7 +1292,7 @@
               </ul>
             </div>
             <div class="p-4 bg-white rounded shadow-sm">
-              <h5 class="font-semibold">Bots & Integrations</h5>
+              <h4 class="font-semibold">Bots & Integrations</h5>
               <ul
                 class="text-base md:text-lg text-slate-600 mt-2 list-disc list-inside"
               >
@@ -1299,7 +1302,7 @@
               </ul>
             </div>
             <div class="p-4 bg-white rounded shadow-sm">
-              <h5 class="font-semibold">DevOps & Testing</h5>
+              <h4 class="font-semibold">DevOps & Testing</h5>
               <ul
                 class="text-base md:text-lg text-slate-600 mt-2 list-disc list-inside"
               >
@@ -1312,10 +1315,7 @@
         </div>
       </section>
 
-      <section
-        id="extra"
-        class="flex items-center justify-center bg-slate-100 border-t"
-      >
+      <section id="extra" class="flex items-center bg-slate-100 justify-center border-t">
         <div class="flex flex-col max-w-7xl w-full px-2 py-12">
           <h3
             class="text-2xl md:text-3xl font-semibold mb-6 pb-4 border-b border-gray-300"
@@ -1332,11 +1332,14 @@
         </div>
       </section>
 
-      <section id="contact" class="flex items-center justify-center py-16">
+      <section
+        id="contact"
+        class="flex items-center justify-center bg-slate-50 py-8 md:py-16 border-t"
+      >
         <div class="flex flex-col max-w-7xl w-full px-2">
-          <h3 class="text-2xl font-semibold mb-4">Контакты</h3>
+          <h3 class="text-2xl md:text-3xl font-semibold mb-6 pb-4 border-b border-gray-300">Контакты</h3>
           <div class="grid md:grid-cols-2 gap-8 items-start">
-            <div>
+            <div class="text-base md:text-lg">
               <p class="text-slate-700 mb-4">
                 Оставьте заявку или свяжитесь с нами напрямую. Бесплатная
                 первичная консультация. Мы подскажем оптимальное решение для
@@ -1345,21 +1348,21 @@
               <ul class="text-slate-700 space-y-2">
                 <li>
                   Телефон:
-                  <a href="tel:+375333308899" class="text-sky-600"
+                  <a href="tel:+375333171234" class="text-blue-950"
                     >+375 (33) 317 1234</a
                   >
                 </li>
                 <li>
                   Email:
-                  <a href="mailto:noubleteam@gmail.com" class="text-sky-600"
+                  <a href="mailto:noubleteam@gmail.com" class="text-blue-950"
                     >noubleteam@gmail.com</a
                   >
                 </li>
                 <li>Адрес: г. Брест</li>
               </ul>
               <div class="mt-6">
-                <h5 class="font-semibold">Форма быстрой заявки</h5>
-                <form action="#" method="post" class="mt-3 space-y-3">
+                <h4 class="font-semibold">Форма быстрой заявки</h5>
+                <form action="#" method="post" class="flex flex-col mt-3 gap-3">
                   <input
                     type="text"
                     name="name"
@@ -1385,24 +1388,16 @@
                     placeholder="Краткое описание задачи"
                     class="w-full px-3 py-2 border rounded"
                   ></textarea>
-                  <div class="flex gap-3">
-                    <button
-                      type="submit"
-                      class="px-4 py-2 bg-sky-600 text-white rounded"
-                    >
-                      Отправить
-                    </button>
-                    <a
-                      href="mailto:noubleteam@gmail.com?subject=Заявка%20с%20сайта"
-                      class="px-4 py-2 border rounded"
-                      >Отправить на почту</a
-                    >
-                  </div>
+                  <a
+                    href="mailto:noubleteam@gmail.com?subject=Заявка%20с%20сайта"
+                    class="flex justify-center px-4 py-2 w-fill md:w-full rounded-md bg-blue-900 hover:bg-blue-800 text-white text-base font-normal"
+                    >Отправить</a
+                  >
                 </form>
               </div>
             </div>
-            <div>
-              <h5 class="font-semibold mb-2">Коротко о нас</h5>
+            <div class="text-base md:text-lg">
+              <h4 class="font-semibold mb-2">Коротко о нас</h5>
               <p class="text-slate-700">
                 Мы не просто выполняем задачи. Мы предлагаем улучшения и
                 автоматизацию, чтобы снизить ручной труд и ускорить
@@ -1411,8 +1406,8 @@
               </p>
 
               <div class="mt-6 bg-white p-4 rounded shadow-sm">
-                <h6 class="font-medium">Гарантии и прозрачность</h6>
-                <ul class="text-sm text-slate-600 mt-2 list-disc list-inside">
+                <h5 class="font-medium">Гарантии и прозрачность</h6>
+                <ul class="text-slate-600 mt-2 list-disc list-inside">
                   <li>Договор, поэтапная оплата</li>
                   <li>Демонстрации результата на каждом этапе</li>
                   <li>Передача исходников и документации</li>
@@ -1424,7 +1419,7 @@
       </section>
     </main>
 
-    <footer class="flex items-center justify-center bg-white border-t mt-12">
+    <footer class="flex items-center justify-center bg-white border-t">
       <div
         class="flex flex-col md:flex-row max-w-7xl w-full px-2 py-8 justify-center items-center text-sm text-slate-600"
       >
