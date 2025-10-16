@@ -342,6 +342,9 @@
   .border-emerald-800 {
     border-color: var(--color-emerald-800);
   }
+  .border-gray-100 {
+    border-color: var(--color-gray-100);
+  }
   .border-gray-300 {
     border-color: var(--color-gray-300);
   }
